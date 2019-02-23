@@ -145,7 +145,10 @@ def scrape():
     full_mars_data["news_image"] = featured_image_url
     full_mars_data["mars_weather"] = mars_weather
     # full_mars_data["mars_facts_table"] = Mars_Facts.html
-    full_mars_data["hemisphere_image_urls"] = hemisphere_image_urls
+    full_mars_data["photo_CHE"] = photo_CHE
+    full_mars_data["photo_SHE"] = photo_SHE
+    full_mars_data["photo_SMHE"] = photo_SMHE
+    full_mars_data["photo_VMHE"] = photo_VMHE
 
 
     return full_mars_data
